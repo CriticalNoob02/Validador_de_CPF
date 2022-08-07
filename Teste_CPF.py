@@ -1,11 +1,16 @@
 import random
 
+## Declarando Var fixas;
 Menu = 0
 Confirmação_1 = 1
 Confirmação_2 = True
 Confirmação_3 = True
 
+## Laço Menu;
 while Confirmação_1 == 1:
+    Menu = 0
+    Confirmação_2 = True
+    Confirmação_3 = True
     print("")
     print("###################### Bem-Vindo ao Teste de CPF ########################\n")
 
@@ -14,6 +19,7 @@ while Confirmação_1 == 1:
     print("2- Gerar um novo CPF. \n")
 
     Menu = int(input("Digite o NÚMERO referente ao que deseja fazer: "))
+
 
     if(Menu == 1):
         while Confirmação_2:
