@@ -87,7 +87,7 @@ try:
                 ## Verificando o 2º Digito;    
                 digito2 = (11- (total % 11))
                 if digito2 > 9:
-                    digito2 = 0
+                    digito2 = 9
 
                 if (digito2 == cpf_1[-1]):
                         Confirmação_2 = False  
@@ -164,7 +164,7 @@ try:
                 ## Verificando o 2º Digito;    
                 digito2 = (11- (total % 11))
                 if digito2 > 9:
-                    digito2 = 0
+                    digito2 = 9
 
                 if (digito2 == cpf1[-1]):
                         verificação2 = False
